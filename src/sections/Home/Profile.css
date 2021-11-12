@@ -1,0 +1,11 @@
+.primary-btn {
+    color: var(- white);
+    border: 2px solid linen;
+    font-size: 25px;
+    background-color: #1f2235;
+  }
+  .primary-btn:hover {
+    color: aliceblue;
+    border: 2px solid #ff5823;
+    background-attachment: #1f2235;
+  }

@@ -1,6 +1,12 @@
 import SideBar from "./components/SideBar";
 import styled from 'styled-components';
 import Home from './sections/Home/Home'
+import About from './sections/AboutMe/AboutMe'
+import { Switch, Route } from "react-router-dom";
+import AboutMe from "./sections/AboutMe/AboutMe";
+import Portfolio from "./sections/Portfolio/Portfolio";
+import Resume from './sections/Resume/Resume';
+import Contact from './sections/Contact/Contact';
 function App() {
   return (
     <div className="App">
@@ -12,7 +18,29 @@ function App() {
           <div className="line-3"></div>
           <div className="line-4"></div>
         </div>
-        <Home />
+
+        <Switch>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+
+          <Route path="/about" exact>
+            <AboutMe />
+          </Route>
+
+          <Route path="/portfolio" exact>
+            <Portfolio />
+          </Route>
+
+          <Route path="/resume" exact>
+            <Resume />
+          </Route>
+
+          <Route path="/contact" exact>
+            <Contact />
+          </Route>
+        </Switch>
+
       </Main>
     </div>
   );
@@ -31,7 +59,7 @@ const Main = styled.div`
     display: flex;
     justify-content: space-evenly;
     .line-1, .line-2, .line-3, .line-4{
-      width: 1px;
+      width: .5px;
       min-height: 100vh;
       background-color: var(--border-color) ;
     }

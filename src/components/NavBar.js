@@ -14,19 +14,19 @@ function Navigation(){
             </div>
             <ul className='nav-items'>
                 <li className='nav-item'>
-                    <NavLink to="/home" className='active-class' > Home </NavLink>
+                    <NavLink to="/" className='active-class' > Home </NavLink>
                 </li>
                 <li className='nav-item'>
-                    <NavLink to="/About" className='active-class' > About </NavLink>
+                    <NavLink to="/about" className='active-class' > About </NavLink>
                 </li>
                 <li className='nav-item'>
-                    <NavLink to="/Portfolio" className='active-class' > Portfolio </NavLink>
+                    <NavLink to="/portfolio" className='active-class' > Portfolio </NavLink>
                 </li>
                 <li className='nav-item'>
-                    <NavLink to="/Resume" className='active-class'> Resumé </NavLink>
+                    <NavLink to="/resume" className='active-class'> Resumé </NavLink>
                 </li>
                 <li className='nav-item'>
-                    <NavLink to="/Contact" className='active-class'> Contact </NavLink>
+                    <NavLink to="/contact" className='active-class'> Contact </NavLink>
                 </li>
             </ul>
             <footer className='footer'>
@@ -61,13 +61,9 @@ const NavigationStyled = styled.div`
     .nav-items{
         width: 100%;
         text-align: center;
-        .background-red {
-            background-color: red;
+        .active-class{
+            
         }
-        .background-blue {
-            background-color: blue;
-        }
-
         li{
             display: block;
             a{
@@ -75,8 +71,12 @@ const NavigationStyled = styled.div`
                 padding: .3rem 0;
                 position: relative;
                 z-index: 10;
+                text-transform: uppercase;
+                font-weight: 600;
+                letter-spacing: 1px;
                 &:hover{
                     cursor: pointer;
+                    color: var(--primary-color);
                 }
                 &::before{
                     content: "";

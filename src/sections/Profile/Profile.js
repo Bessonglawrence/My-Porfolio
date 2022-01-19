@@ -33,8 +33,8 @@ export default function Profile() {
                 />
               </h2>
               <p className="profile-role-tagline">
-                Knacking of building applications with front-end and back-end
-                operations.
+                A Knack for building applications with front-end and back-end
+                operations and a passion for software engineering.
               </p>
             </div>
             <div className="icons">

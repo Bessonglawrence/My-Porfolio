@@ -1,7 +1,6 @@
 import SideBar from "./components/SideBar";
 import styled from 'styled-components';
 import Home from './sections/Home/Home'
-import About from './sections/AboutMe/AboutMe'
 import { Switch, Route } from "react-router-dom";
 import AboutMe from "./sections/AboutMe/AboutMe";
 import Portfolio from "./sections/Portfolio/Portfolio";
@@ -13,10 +12,10 @@ function App() {
       <SideBar />
       <Main>
         <div className="lines">
-          <div className="line-1"></div>
+          {/* <div className="line-1"></div>
           <div className="line-2"></div>
-          <div className="line-3"></div>
-          <div className="line-4"></div>
+          <div className="line-3"></div> */}
+          {/* <div className="line-4"></div> */}
         </div>
 
         <Switch>
@@ -59,7 +58,7 @@ const Main = styled.div`
     display: flex;
     justify-content: space-evenly;
     .line-1, .line-2, .line-3, .line-4{
-      width: .5px;
+      width: .2px;
       min-height: 100vh;
       background-color: var(--border-color) ;
     }

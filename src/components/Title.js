@@ -13,7 +13,7 @@ const TitleStyled = styled.div`
     position: relative;
     h2{
         color: var(--white-color);
-        font-size: 2.8rem;
+        font-size: 2rem;
         font-weight: 550;
         text-transform: uppercase;
         position: relative;
@@ -41,10 +41,10 @@ const TitleStyled = styled.div`
         span{
             font-weight: 700;
             color: rgba(25,29,43,.44); 
-            font-size: 4rem;
+            font-size: 3rem;
             position: absolute;
             left: 0;
-            top: 25%;
+            top: 40%;
             z-index: -1;
         }
     }

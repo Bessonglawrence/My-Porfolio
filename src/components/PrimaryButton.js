@@ -1,15 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function PrimaButton({title}) {
+function PrimaryButton({title}) {
     return (
-        <PrimaButtonStyled>
+        <PrimaryButtonStyled>
             {title}
-        </PrimaButtonStyled>
+        </PrimaryButtonStyled>
     )
 }
 
-const PrimaButtonStyled = styled.a`
+const PrimaryButtonStyled = styled.a`
     background-color: var(--primary-color);
     padding: .9rem 2.5rem;
     color: white;
@@ -19,16 +19,23 @@ const PrimaButtonStyled = styled.a`
     text-transform: uppercase;
     position: relative;
     transition: all .4s ease-in-out;
-    &:hover::after{
+    border-radius: .3rem;
+    &::after{
         content: "";
         position: absolute;
-        width: 100%;
+        width: 0;
         height: .2rem;
-        background-color: var(--white-color);
         transition: all .4s ease-in-out;
         left: 0;
         bottom: 0;
+        align-self: center;
+        opacity: .7;
+    }
+    &:hover::after{
+        width: 100%;
+        background-color: var(--white-color);
+        border-radius: 2rem;
     }
 `;
 
-export default PrimaButton
+export default PrimaryButton

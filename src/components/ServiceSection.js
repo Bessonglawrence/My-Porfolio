@@ -19,13 +19,11 @@ function ServiceSection() {
                         paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'}
                     />
 
-                    <div className="mid-card">
                         <ServiceCard 
                             image={web} 
                             title={'Graphic Designing'}
                             paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'}
                         />
-                    </div>
 
                     <ServiceCard 
                         image={mobile} 
@@ -43,9 +41,6 @@ const ServicesSectionStyled = styled.section`
         display: flex;
         justify-content: space-between;
         margin-top: 5rem;
-        .mid-card{
-            margin: 1.2rem;
-        }
     }
 `;
 

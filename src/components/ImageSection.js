@@ -1,7 +1,7 @@
 import React from 'react'
 import picture from '../res/Images/picture.jpeg';
 import styled from 'styled-components';
-import PrimaButton from './PrimaButton';
+import PrimaButton from './PrimaryButton';
 
 function ImageSection() {
     return (
@@ -24,7 +24,7 @@ function ImageSection() {
                         <p>:  Orock lawrence</p>
                         <p>:  Cameroonian</p>
                         <p>:  French, English</p>
-                        <p>:  Aberystwyth, United Kingdom</p>
+                        <p>:  Wales, United Kingdom</p>
                         <p>:  Web and Mobile Development</p>
                     </div>
                 </div>
@@ -43,6 +43,7 @@ const ImageSectionStyled = styled.div`
         img{
             width: 90%;
             margin-top: .5rem;
+            border-radius: .3rem;
         }
     }
     .right-content{

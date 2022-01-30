@@ -8,6 +8,9 @@ function ReviewSection() {
       <InnerLayout>
             <ReviewStyled>
                 <Title title={'Reviews'} span={'Reviews'}/>
+                <InnerLayout>
+                    
+                </InnerLayout>
             </ReviewStyled>
       </InnerLayout>
   );

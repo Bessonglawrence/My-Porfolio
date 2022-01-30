@@ -2,10 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 import avatar from './../res/Images/avatar.jpg';
+import { Facebook,LinkedIn, Instagram,GitHub} from "@material-ui/icons";
 
 function Navigation(){
 
-    const isBackgroundRed = true;
 
     return(
         <NavigationStyled>
@@ -29,6 +29,20 @@ function Navigation(){
                     <NavLink to="/contact" className='active-class'> Contact </NavLink>
                 </li>
             </ul>
+            <div className="icons">
+                <a href="https://www.facebook.com/orock.bessongayim" className="icon i-facebook"> 
+                  <Facebook />
+                </a>
+                <a href="https://www.linkedin.com/in/orock-lawrence-01884a179/" className="icon i-github">
+                  <LinkedIn />
+                </a>
+                <a href="https://www.instagram.com/?hl=en" className="icon i-linkedin">
+                  <Instagram />
+                </a>
+                <a href="https://github.com/Bessonglawrence" className="icon i-instagram">
+                  <GitHub />
+                </a>
+            </div>
             <footer className='footer'>
                 <p> @2022 My Portfolio Resumé </p>
             </footer>
@@ -109,6 +123,26 @@ const NavigationStyled = styled.div`
             display: block;
             text-align: center;
         }
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        .icon{
+            border: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all .4s ease-in-out;
+            &:hover{
+                border: 1px solid var(--primary-color);
+                color: var(--primary-color);
+        }
+            &:not(:last-child){
+                margin-right: .5rem;
+        }
+    
     }
 `;
 

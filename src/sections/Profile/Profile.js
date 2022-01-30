@@ -27,7 +27,7 @@ export default function Profile() {
                     3000,
                     "MERN Stack 😎",
                     3000,
-                    "React/React-Native Dev 📱",
+                    "React / React-Native Dev 📱",
                     3000,
                   ]}
                 />
@@ -63,7 +63,6 @@ const AppStyled = styled.div`
   background-color: var( --background-dark-color) ;
   align-items: center;
   justify-content: center;
-  //position: relative;
   .profile-details{
     position: absolute;
     top: 50%;

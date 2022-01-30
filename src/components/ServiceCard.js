@@ -16,8 +16,6 @@ function ServiceCard({image, title, paragraph}) {
 const ServiceCardStyled = styled.div`
     background-color: var(--background-grey-color) ;
     border-radius: .3rem;
-    height: 51vh;
-    width: 70%;
     margin-right: 8px;
     border-left: 1px solid var(--border-color);
     border-right: 1px solid var(--border-color);
@@ -51,6 +49,10 @@ const ServiceCardStyled = styled.div`
         p{
             margin-top: 1rem;
             font-size: 18px;
+        }
+        img{
+            width: 90%;
+            margin-left: 10px;
         }
     }
 `;

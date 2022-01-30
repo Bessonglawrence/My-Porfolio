@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import { InnerLayout } from '../styles/Layout';
 import Title from './Title';
 import ServiceCard from './ServiceCard';
-import web from '../res/Images/web.svg';
-import mobile from '../res/Images/mobile.svg';
-import laptop from '../res/Images/laptop.svg';
+import mobile from '../res/Images/mobile.png';
+import coding from '../res/Images/coding.png';
+import design from '../res/Images/design.png';
 
 function ServiceSection() {
     return (
@@ -14,13 +14,13 @@ function ServiceSection() {
                 <Title title={'Services'} span={'Services'} />
                 <div className='services'>
                     <ServiceCard 
-                        image={web} 
+                        image={coding} 
                         title={'Web Development'}
                         paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'}
                     />
 
                         <ServiceCard 
-                            image={web} 
+                            image={design} 
                             title={'Graphic Designing'}
                             paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'}
                         />

@@ -6,6 +6,7 @@ import AboutMe from "./sections/AboutMe/AboutMe";
 import Portfolio from "./sections/Portfolio/Portfolio";
 import Resume from './sections/Resume/Resume';
 import Contact from './sections/Contact/Contact';
+import Blog from "./sections/BlogPage/BlogPage";
 function App() {
   return (
     <div className="App">
@@ -37,6 +38,10 @@ function App() {
 
           <Route path="/contact" exact>
             <Contact />
+          </Route>
+
+          <Route path="/blog" exact>
+            <Blog />
           </Route>
         </Switch>
 

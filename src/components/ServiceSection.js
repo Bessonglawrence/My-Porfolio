@@ -4,7 +4,6 @@ import { InnerLayout } from '../styles/Layout';
 import Title from './Title';
 import ServiceCard from './ServiceCard';
 import mobile from '../res/Images/mobile.png';
-import coding from '../res/Images/coding.png';
 import design from '../res/Images/design.png';
 
 function ServiceSection() {
@@ -14,7 +13,7 @@ function ServiceSection() {
                 <Title title={'Services'} span={'Services'} />
                 <div className='services'>
                     <ServiceCard 
-                        image={coding} 
+                        image={design} 
                         title={'Web Development'}
                         paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'}
                     />

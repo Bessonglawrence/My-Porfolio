@@ -11,7 +11,7 @@ function PrimaryButton({title}) {
 
 const PrimaryButtonStyled = styled.a`
     background-color: var(--primary-color);
-    padding: .9rem 2.5rem;
+    padding: .5rem 2rem;
     color: white;
     cursor: pointer;
     display: inline-block;

@@ -11,7 +11,7 @@ function ImageSection() {
             </div>
             <div className='right-content'>
                 <h4>I am <span>Orock Lawrence</span></h4>
-                <p className='paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p className='paragraph'>I am a software developer with over 5 years of hands on experience with live projects in React and React Native. </p>
                 <div className='about-info'>
                     <div className='info-title'>
                         <p>Full Name</p>
@@ -25,10 +25,12 @@ function ImageSection() {
                         <p>:  Cameroonian</p>
                         <p>:  French, English</p>
                         <p>:  Wales, United Kingdom</p>
-                        <p>:  Web and Mobile Development</p>
+                        <p>:  Web & Mobile Development</p>
                     </div>
                 </div>
-                <PrimaButton title={'Download CV'} />
+                <div className='button-section'>
+                    <PrimaButton title={'Download CV'} />
+                </div>
             </div>
         </ImageSectionStyled>
     )
@@ -58,6 +60,8 @@ const ImageSectionStyled = styled.div`
         }
         .paragraph{
             padding: 1rem 0;
+            font-size: 24px;
+            font-style: italic;
         }
         .about-info{
             display: flex;
@@ -75,6 +79,10 @@ const ImageSectionStyled = styled.div`
             p{
                 padding: .3rem 0;
             }
+            
+        }
+        .button-section{
+            margin-top: 1rem;
         }
     }
 `;

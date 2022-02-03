@@ -28,6 +28,9 @@ function Navigation(){
                 <li className='nav-item'>
                     <NavLink to="/contact" className='active-class'> Contact </NavLink>
                 </li>
+                <li className='nav-item'>
+                    <NavLink to="/blog" className='active-class'> Blog </NavLink>
+                </li>
             </ul>
             <div className="icons">
                 <a href="https://www.facebook.com/orock.bessongayim" className="icon i-facebook"> 
@@ -86,7 +89,7 @@ const NavigationStyled = styled.div`
                 position: relative;
                 z-index: 10;
                 text-transform: uppercase;
-                font-weight: 600;
+                font-weight: 550;
                 letter-spacing: 1px;
                 &:hover{
                     cursor: pointer;

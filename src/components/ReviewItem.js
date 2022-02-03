@@ -10,11 +10,25 @@ function ReviewItem({text}) {
 }
 
 const ReviewItemStyled = styled.div`
-    height: 15vh;
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
     border-left: 6px solid var(--border-color);
+    background-color: var(--background-grey-color);
+    position: relative;
+    width: 50%;
+    &:not(:first-child){
+        margin-left: 1rem;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        left: 1rem;
+        border-width: .8rem;
+        border-style: solid;
+        border-color: var(--background-grey-color) transparent transparent var(--background-grey-color);
+        top: 100%;
+    }
     p{
-        padding: 1rem 0;
+        font-size: 17px;
     }
 `;
 

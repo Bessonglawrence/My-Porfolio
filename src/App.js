@@ -4,7 +4,7 @@ import Home from './sections/Home/Home'
 import { Switch, Route } from "react-router-dom";
 import AboutMe from "./sections/AboutMe/AboutMe";
 import Portfolio from "./sections/Portfolio/Portfolio";
-import Resume from './sections/Resume/Resume';
+import Resume from './sections/Resume/ResumePage';
 import Contact from './sections/Contact/Contact';
 import Blog from "./sections/BlogPage/BlogPage";
 function App() {

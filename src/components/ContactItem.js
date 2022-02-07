@@ -17,15 +17,18 @@ function ContactItem({icon, title, con1, con2}) {
 }
 
 const ContactItemStyled = styled.div`
-    padding: 1.5rem 2rem;
+    padding: 1rem 1.5rem;
     background-color: var(--background-grey-color);
     display: flex;
     align-items: center;
+    margin-bottom: 2rem;
     .left-content{
-        padding: .5rem;
+        padding: .3rem;
         border: 1px solid var(--border-color);
-        border-radius: 80px;
+        align-items: center;
         justify-content: center;
+        font-size: 2rem;
+        display: flex;
         svg{
             font-size: 2.3rem;
         }

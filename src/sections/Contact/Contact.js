@@ -58,7 +58,7 @@ const ContactStyled = styled.div`
     .contact-section{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 2rem;
+        grid-column-gap: 1rem;
         .right-content{
             display: flex;
             flex-direction: column;
@@ -66,6 +66,8 @@ const ContactStyled = styled.div`
         .contact-title{
             h4{
                 color: var(--white-color);
+                font-size: 2rem;
+                font-style: italic;
             }
         }
         .form{

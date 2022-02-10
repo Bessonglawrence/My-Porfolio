@@ -23,11 +23,9 @@ const ContactItemStyled = styled.div`
     align-items: center;
     margin-bottom: 2rem;
     .left-content{
-        padding: .3rem;
-        border: 1px solid var(--border-color);
+        padding-right: 1.4rem ;
         align-items: center;
         justify-content: center;
-        font-size: 2rem;
         display: flex;
         svg{
             font-size: 2.3rem;

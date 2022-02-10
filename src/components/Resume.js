@@ -59,7 +59,7 @@ function Resume() {
                         year={'2018-2021'}
                         mainTitle={'Another Eye'}
                         title={'Engineering Lead'}
-                        // subTitle={'Digital Renter Mobile App'}
+                        subTitle={'Digital Renter Mobile App'}
                         description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'}
                     />
                     <ResumeItem 

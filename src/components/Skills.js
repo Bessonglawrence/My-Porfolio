@@ -45,6 +45,11 @@ function Skills() {
                     width={'65%'}
                     text={'65%'}
                 />
+                <ProgressBar 
+                    title={'Linux'}
+                    width={'60%'}
+                    text={'60%'}
+                />
             </div>
         </InnerLayout>
     </SkillsStyled>

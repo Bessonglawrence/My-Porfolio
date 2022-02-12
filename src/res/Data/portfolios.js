@@ -1,4 +1,4 @@
-
+import design from '../Images/design.png';
 const portfolios = [
     {
         id: 1,
@@ -7,7 +7,8 @@ const portfolios = [
         link2: 'https://play.google.com/store/apps/details?id=com.digitalrenter',
         title: 'Digital Renter App',
         sector: 'Real Estate',
-        technology: 'React Native'
+        technology: 'React Native',
+        image: design,
     },
     {
         id: 2,

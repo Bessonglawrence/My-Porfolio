@@ -12,17 +12,18 @@ function Menu({menuItem}) {
                         <div className='portfolio-content'>
                             <div className='portfolio-image'>
                                 <img src={item.image} alt="" />
+                                <ul>
+                                    <li>
+                                        <a href={item.link1}></a>
+                                        <GitHub />
+                                    </li>
+                                    <li>
+                                        <a href={item.link2}></a>
+                                        <Web />
+                                    </li>
+                                </ul>
                             </div>
-                            <ul>
-                                <li>
-                                    <a href={item.link1}></a>
-                                    <GitHub />
-                                </li>
-                                <li>
-                                    <a href={item.link2}></a>
-                                    <Web />
-                                </li>
-                            </ul>
+                            <h6>{item.title}</h6>
                         </div>
                     </div>
                 )
@@ -33,7 +34,12 @@ function Menu({menuItem}) {
 }
 
 const MenuItemStyled = styled.div`
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    .grid-item{
+        
+    }
 `;
 
 export default Menu;

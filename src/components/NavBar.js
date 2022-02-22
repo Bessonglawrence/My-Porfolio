@@ -83,6 +83,7 @@ const NavigationStyled = styled.div`
         }
         li{
             display: block;
+            color: var(--white-color);
             a{
                 display: block;
                 padding: .3rem 0;
@@ -93,7 +94,7 @@ const NavigationStyled = styled.div`
                 letter-spacing: 1px;
                 &:hover{
                     cursor: pointer;
-                    color: var(--primary-color);
+                    color: var(--white-color);
                 }
                 &::before{
                     content: "";
@@ -107,6 +108,10 @@ const NavigationStyled = styled.div`
                     z-index: 2;
                     opacity: 0.2;
                     transform-origin: bottom;
+                }
+                &:active ,&:focus{
+                    background-color: var(--primary-color);
+                    opacity: .9;
                 }
             }
 

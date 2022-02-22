@@ -24,7 +24,7 @@ function Menu({menuItem}) {
                                 </ul>
                             </div>
                             <h6>{item.title}</h6>
-                            <p>{item.category} built with {item.technology}</p>
+                            <p>{item.category} Application built with {item.technology}</p>
                         </div>
                     </div>
                 )
@@ -53,8 +53,21 @@ const MenuItemStyled = styled.div`
             }
             ul{
                 display: flex;
-                //margin-left: 5rem;
                 justify-content: space-around;
+                li{
+                    cursor: pointer;
+                    padding-top: .1rem;
+                    border-radius: 50px;
+                    &:hover{
+                        color: var(--primary-color);
+                        border-radius: 50px;
+                    }
+                }
+            }
+            h6{
+                font-style: italic;
+                text-align: center;
+                color: var(--white-color);
             }
         }
     }

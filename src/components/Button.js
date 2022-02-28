@@ -29,7 +29,7 @@ const ButtonStyled = styled.button`
     opacity: .4;
   }
   &:active, &:focus{
-      background-color: black;
+      background-color: var(--background-grey-color);
   }
   &:not(:last-child){
     margin-right: .6rem;

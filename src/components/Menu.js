@@ -50,6 +50,7 @@ const MenuItemStyled = styled.div`
             p{
                 font-size: .7rem;
                 padding-top: .4rem;
+                text-align: center;
             }
             ul{
                 display: flex;
@@ -62,6 +63,21 @@ const MenuItemStyled = styled.div`
                         color: var(--primary-color);
                         border-radius: 50px;
                     }
+                }
+            }
+            .portfolio-image:hover{
+                &::before{
+                    content: "";
+                    position: absolute;
+                    left: 15px;
+                    top: 15px;
+                    height: calc(100% - 30px);
+                    width: calc(100% - 30px);
+                    background-color: white;
+                    opacity: .9;
+                    transform-origin: 0;
+                    transform: scale(0);
+                    transition: all .4s ease-in-out;
                 }
             }
             h6{

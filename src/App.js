@@ -9,25 +9,30 @@ import Contact from './sections/Contact/Contact';
 import Blog from "./sections/BlogPage/BlogPage";
 import {Brightness4} from "@material-ui/icons";
 import { Switch } from "@material-ui/core";
+
+
 function App() {
   return (
     <div className="App">
       <SideBar />
-      <Main>
-        <div className="light-dark-mode">
-          <div className="left-content">
-            <Brightness4 />
-          </div>
-          <div className="right-content">
-            <Switch
-              value=""
-              //checked={}
-              //onChange={} 
-              inputProps={{'arial-label':''}}
-            />
-          </div>
-        </div>
 
+      <div className="theme">
+        <div className="light-dark-mode">
+            <div className="left-content">
+              <Brightness4 />
+            </div>
+            <div className="right-content">
+              <Switch
+                value=""
+                //checked={}
+                //onChange={} 
+                inputProps={{'arial-label':'controlled'}}
+              />
+            </div>
+        </div>
+      </div>
+
+      <Main>
         <Switching>
           <Route path="/" exact>
             <Home />
@@ -65,18 +70,9 @@ const Main = styled.div`
   min-height: 100vh;
   align-items: center;
   justify-content: center;
- .light-dark-mode{
-   position: absolute;
-   right: 0;
-   top: 10%;
-   background-color: red;
-   width: 6rem;
-   height: 3rem;
-   display: flex;
-   z-index: 15;
-   align-items: center;
-   justify-content: space-between;
- }
+  .right-content{
+    background-color: transparent;
+  }
 `;
 
 export default App;

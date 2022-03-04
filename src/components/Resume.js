@@ -24,22 +24,29 @@ function Resume() {
                         year={'2017-2021'}
                         mainTitle={'Digital Renter'}
                         title={'Lead Developer'}
-                        // subTitle={'Digital Renter Mobile App'}
-                        description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'}
+                        subTitle={'Digital Renter Mobile App'}
+                        description={'Supervised the Engineering and Development of the mobile application. Also acted as project manager. Worked as programmer to development some modules and features to the application.'}
                     />
                     <ResumeItem 
                         year={'2018-2021'}
                         mainTitle={'Another Eye'}
                         title={'Engineering Lead'}
+                        subTitle={'Another Mobile App'}
+                        description={'Supervised the Engineering and Development of the mobile application. Also acted as project manager. Worked as programmer to development some modules and features to the application.'}
+                    />
+                    <ResumeItem 
+                        year={'2021-2021'}
+                        mainTitle={'Adipster Tech'}
+                        title={'Software Developer'}
                         // subTitle={'Digital Renter Mobile App'}
-                        description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'}
+                        description={'Supervised the Engineering and Development of the mobile application. Also acted as project manager. Worked as programmer to development some modules and features to the application.'}
                     />
                     <ResumeItem 
                         year={'2021-2021'}
                         mainTitle={'Bohikor'}
                         title={'Software Developer'}
                         // subTitle={'Digital Renter Mobile App'}
-                        description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'}
+                        description={'Supervised the Engineering and Development of the mobile application. Also acted as project manager. Worked as programmer to development some modules and features to the application.'}
                     />
                 </div>
 
@@ -49,25 +56,22 @@ function Resume() {
 
                 <div className='resume-content'>
                     <ResumeItem 
-                        year={'2017-2021'}
-                        mainTitle={'Digital Renter'}
-                        title={'Lead Developer'}
-                        // subTitle={'Digital Renter Mobile App'}
-                        description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'}
+                        year={'2014-2017'}
+                        mainTitle={'University of Douala'}
+                        title={'Bachelors Degree'}
+                        description={'Completed a degree program in Computer Science with Honours. Engaged in extracuricular activities like becoming a member of the programmers club. Joined the debate club.'}
                     />
                     <ResumeItem 
-                        year={'2018-2021'}
-                        mainTitle={'Another Eye'}
-                        title={'Engineering Lead'}
-                        subTitle={'Digital Renter Mobile App'}
-                        description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'}
+                        year={'2012-2014'}
+                        mainTitle={'GBHS Tiko'}
+                        title={'GCE Advanced Levels'}
+                        description={'Completed a degree program in Computer Science with Honours. Engaged in extracuricular activities like becoming a member of the programmers club. Joined the debate club.'}
                     />
                     <ResumeItem 
-                        year={'2021-2021'}
-                        mainTitle={'Bohikor'}
-                        title={'Software Developer'}
-                        // subTitle={'Digital Renter Mobile App'}
-                        description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'}
+                        year={'2005-2012'}
+                        mainTitle={'GBHS Tiko'}
+                        title={'GCE Ordinary Levels'}
+                        description={'Completed a degree program in Computer Science with Honours. Engaged in extracuricular activities like becoming a member of the programmers club. Joined the debate club.'}
                     />
                 </div>
             </InnerLayout>
@@ -78,7 +82,6 @@ function Resume() {
 const ResumeStyled = styled.div`
     .small-title{
         padding-bottom: 1rem;
-        //padding-top: 2rem;
     }
     .resume-content{
         border-left: 2px solid var(--border-color);

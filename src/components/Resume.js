@@ -38,8 +38,8 @@ function Resume() {
                         year={'2021-2021'}
                         mainTitle={'Adipster Tech'}
                         title={'Software Developer'}
-                        // subTitle={'Digital Renter Mobile App'}
-                        description={'Supervised the Engineering and Development of the mobile application. Also acted as project manager. Worked as programmer to development some modules and features to the application.'}
+                        subTitle={'Code Reviews'}
+                        description={'Mainly codes reviews for junior developers and momentary fixes in the main platform when required. Code reviews ranged from large to minor projects. Also help in some platform engineering.'}
                     />
                     <ResumeItem 
                         year={'2021-2021'}
@@ -71,7 +71,7 @@ function Resume() {
                         year={'2005-2012'}
                         mainTitle={'GBHS Tiko'}
                         title={'GCE Ordinary Levels'}
-                        description={'Completed a degree program in Computer Science with Honours. Engaged in extracuricular activities like becoming a member of the programmers club. Joined the debate club.'}
+                        description={'Finished secondary school with a combined average of 17.43 and 11 papers in the GCE ordinary levels. Was a member of the school athlete team participating the FENASCO 100 meters race.'}
                     />
                 </div>
             </InnerLayout>

@@ -23,9 +23,7 @@ export const FormattedLines = (props: Props) => {
 return (
     <div>
       <p>There are {nbr} eligible people, listed below:</p>
-      {d.map(x => (
-        <li>{x.name}</li>
-      ))}
+      {d.map(x => (<li>{x.name}</li>))}
     </div>
   );
 };

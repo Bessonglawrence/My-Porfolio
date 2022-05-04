@@ -28,9 +28,6 @@ function Navigation(){
                 <li className='nav-item'>
                     <NavLink to="/contact" className='active-class'> Contact </NavLink>
                 </li>
-                <li className='nav-item'>
-                    <NavLink to="/blog" className='active-class'> Blog </NavLink>
-                </li>
             </ul>
             <div className="icons">
                 <a href="https://www.facebook.com/orock.bessongayim" className="icon i-facebook"> 

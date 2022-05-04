@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function PrimaryButton({title}) {
+function PrimaryButton({title, onclick}) {
     return (
-        <PrimaryButtonStyled>
+        <PrimaryButtonStyled onClick={onclick}>
             {title}
         </PrimaryButtonStyled>
     )

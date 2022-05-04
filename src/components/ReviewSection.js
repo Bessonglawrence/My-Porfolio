@@ -12,10 +12,10 @@ function ReviewSection() {
             
               <div className='reviews'>
                   <ReviewItem
-                    text={'Lorem ipsum dolor sit amet. Eos provident doloremque eum cupiditate.'} 
+                    text={'He did a wonderful job with the Manyu Solidarity Group Website, within a short time span too.'} 
                   />
                   <ReviewItem
-                    text={'Lorem ipsum dolor sit amet. Eos provident doloremque eum cupiditate.'} 
+                    text={'His designs are top notche. Helped with both the flyers and the logo for my association Well done mate.'} 
                   />
               </div>
            

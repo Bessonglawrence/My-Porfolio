@@ -70,6 +70,16 @@ const portfolios = [
         sector: 'Finance',
         image: design,
     },
+    {
+        id: 7,
+        category: 'Web',
+        link1: '',
+        link2: 'https://manyusolidaritygroupuk.org',
+        title: 'Manyu Solidarity Group UK',
+        technology: 'WordPress',
+        sector: 'Finance',
+        image: design,
+    },
 ]
 
 export default portfolios;

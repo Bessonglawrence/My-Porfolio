@@ -39,7 +39,10 @@ export default function Contact() {
                                     <textarea name="textarea" id="textarea" cols="30" rows="10" />
                                 </div>
                                 <div className='form-field'>
-                                    <Button title={'Send Email'}/>
+                                    <Button 
+                                        title={'Send Email'}
+                                        onclick={() => alert("Button has been pressed")}
+                                    />
                                 </div>
                             </form>
                         </div>

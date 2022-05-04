@@ -54,9 +54,9 @@ function App() {
             <Contact />
           </Route>
 
-          <Route path="/blog" exact>
+          {/* <Route path="/blog" exact>
             <Blog />
-          </Route>
+          </Route> */}
         </Switching>
 
       </Main>

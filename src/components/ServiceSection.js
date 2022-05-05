@@ -15,7 +15,7 @@ function ServiceSection() {
                     <ServiceCard 
                         image={design} 
                         title={'Web Development'}
-                        paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'}
+                        paragraph={'I am proficient in React, Wordpress and Wix web technologies and have completed quiet a number of projects with them.'}
                     />
 
                         <ServiceCard 
@@ -27,7 +27,7 @@ function ServiceSection() {
                     <ServiceCard 
                         image={mobile} 
                         title={'Mobile Development'}
-                        paragraph={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'}
+                        paragraph={'Expert level mobile app developer, have been working with it since 2017 and have complete more than 12 projects with it.'}
                     />
                 </div>
             </ServicesSectionStyled>

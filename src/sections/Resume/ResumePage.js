@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Resume from '../../components/Resume';
 import Skills from '../../components/Skills';
-import { InnerLayout, MainLayout } from '../../styles/Layout';
+import { MainLayout } from '../../styles/Layout';
 
 export default function ResumePage() {
     return (

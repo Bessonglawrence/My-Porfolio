@@ -48,6 +48,7 @@ const ServiceCardStyled = styled.div`
         p{
             margin-top: 1rem;
             font-size: 18px;
+            line-height:1.5rem;
         }
         img{
             width: 70%;

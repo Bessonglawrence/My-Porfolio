@@ -14,12 +14,14 @@ function Menu({menuItem}) {
                                 <img src={item.image} alt="" />
                                 <ul>
                                     <li>
-                                        <a href={item.link1}></a>
-                                        <GitHub />
+                                        <a href={item.link1}>
+                                            <GitHub />
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href={item.link2}></a>
-                                        <Web />
+                                        <a href={item.link2}>
+                                            <Web />
+                                        </a>
                                     </li>
                                 </ul>
                             </div>

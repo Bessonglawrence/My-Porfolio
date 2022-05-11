@@ -73,7 +73,7 @@ const portfolios = [
     {
         id: 7,
         category: 'Web',
-        link1: '',
+        link1: 'https://manyusolidaritygroupuk.org',
         link2: 'https://manyusolidaritygroupuk.org',
         title: 'Manyu Solidarity Group UK',
         technology: 'WordPress',

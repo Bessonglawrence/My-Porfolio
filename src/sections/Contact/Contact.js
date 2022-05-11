@@ -24,7 +24,7 @@ export default function Contact() {
                             <form className='form'>
                                 <div className='form-field'>
                                     <label htmlFor='name'>Enter your Name*</label>
-                                    <input type="text" id="name" />
+                                    <input type="text" id="name" required/>
                                 </div>
                                 <div className='form-field'>
                                     <label htmlFor='email'>Enter your Email*</label>
